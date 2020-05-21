@@ -1,4 +1,4 @@
-# pedestrian_tracking
+# Pedestrian Tracking
 Pedestrian Tracking by DeepSORT and Hybrid Task Cascade with PyTorch.
 
 ![](https://github.com/FinalFlowers/pedestrian_tracking/blob/master/results/2.png?raw=true)
