@@ -1,6 +1,8 @@
 # pedestrian_tracking
 Pedestrian Tracking by DeepSORT and Hybrid Task Cascade with PyTorch.
 
+![](https://github.com/FinalFlowers/pedestrian_tracking/blob/master/results/1.png?raw=true)
+
 ## Introduction
 This project is used to participate in zte algorithm contest（中兴捧月算法大赛阿尔法·勒克斯特派）, which get 77.838 on the A board.
 
@@ -15,7 +17,7 @@ Several other detection algorithms, such as [Cascade R-CNN](https://arxiv.org/ab
 `git clone https://github.com/FinalFlowers/pedestrian_tracking.git`
 
 #### 2.Install the required libraries
-`cd person_tracking`
+`cd pedestrian_tracking`
 
 `pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
@@ -54,5 +56,5 @@ Run the following code will visualize the tracking results while testing:
 `python htc_deepsort.py /your/trackdata/ --display`
 
 
- ## further information
+ ## Further information
  You can adjust the tracking configuration in `person_tracking/configs/deep_sort.yaml` and detection configuration in  `person_tracking/models/htc_dconv_c3-c5_mstrain_400_1400_x101_64x4d_fpn_20e.py`.
