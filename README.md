@@ -1,7 +1,7 @@
 # pedestrian_tracking
 Pedestrian Tracking by DeepSORT and Hybrid Task Cascade with PyTorch.
 
-![](https://github.com/FinalFlowers/pedestrian_tracking/blob/master/results/1.png?raw=true)
+![](https://github.com/FinalFlowers/pedestrian_tracking/blob/master/results/2.png?raw=true)
 
 ## Introduction
 This project is used to participate in zte algorithm contest（中兴捧月算法大赛阿尔法·勒克斯特派）, which get 77.838 on the A board.
