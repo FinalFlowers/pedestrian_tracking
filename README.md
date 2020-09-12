@@ -29,9 +29,9 @@ Several other detection algorithms, such as [Cascade R-CNN](https://arxiv.org/ab
 #### 4.Download the weight files
 Download detection and ReID feature extraction model parameters from [Baidu Netdisk](https://pan.baidu.com/s/1gfRnIcaNJIb2NcOPc2fKgQ) with code: *bboh*.
 
-Put `htc_dconv_c3-c5_mstrain_400_1400_x101_64x4d_fpn_20e.pth` under `person_tracking/models/`
+Put `htc_dconv_c3-c5_mstrain_400_1400_x101_64x4d_fpn_20e.pth` under `pedestrian_tracking/models/`
 
-Put `ckpt.t7` under `person_tracking/deep_sort/deep/checkpoint/`
+Put `ckpt.t7` under `pedestrian_tracking/deep_sort/deep/checkpoint/`
 
 ## Testing
 Run the following code for pedestrian tracking:
@@ -48,7 +48,7 @@ The output format is:
 
 - The input should be a path to images ending in `/`
 
-- The results will be saved under `person_tracking/results/` in `.txt` format
+- The results will be saved under `pedestrian_tracking/results/` in `.txt` format
 
 
 Run the following code will visualize the tracking results while testing:
